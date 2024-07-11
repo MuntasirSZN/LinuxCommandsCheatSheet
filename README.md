@@ -823,7 +823,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 # License
 
-See [LICENSE.md](LICENSE.md) for more details.
+This repo is licensed under the MIT license.See [LICENSE.md](LICENSE.md) for more details.
 
 # Author
 
