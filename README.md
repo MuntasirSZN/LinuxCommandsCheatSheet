@@ -722,7 +722,7 @@ htop
 ```
 
 #### Output
-![htop](htop.png)
+![htop](https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/htop.png?raw=true)
 
 
 ## 19.```free```
