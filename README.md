@@ -833,4 +833,4 @@ Muntasir Mahmud (Also known in github as MuntasirSZN)
 
 I hope this repo helps you to memorize the linux commands. If you have any questions,then you can ask me in the issues section. I will try to answer your questions as soon as possible. If you want to contribute to this repo,then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. I hope this repo helps you. Thank you for reading this repo. Have a nice day. Goodbye.👋👋👋
 
-**And**, don't forget to give a star to this repo.⭐⭐⭐"# LinuxCommandsCheatSheet" 
+**And**, don't forget to give a star to this repo.⭐⭐⭐
