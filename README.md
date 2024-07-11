@@ -1,10 +1,11 @@
-
+<center>
+    
 # Linux Commands Cheat Sheet 🐧📚📚
 
 </center>
 
 <center>
-    <img src="Linux Commands.jpeg" "width="50%">
+    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Linux%20Commands.jpeg?raw=true" width="50%">
 </center>
 
 
