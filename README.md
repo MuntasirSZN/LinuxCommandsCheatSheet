@@ -1,21 +1,21 @@
-<center>
+<div style="text-align: center;">
     
 # Linux Commands Cheat Sheet 🐧📚📚
 
-</center>
+</div>
 
-<center>
-    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Linux%20Commands.jpeg?raw=true" width="50%">
-</center>
+<div style="text-align: center;">
+    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Linux%20Commands.jpeg?raw=true" width="50%" alt="">
+</div>
 
 
-<center>
+<div style="text-align: center;">
 
 # Why this repo❓
 
-</center>
+</div>
 
-A lot of people is learning linux,for development reasons. They sometimes forget the commands. To help them **memorize** the commands,I made this repo. This is my personal repo,where I keep all the commands I use. I hope this repo helps you too. I provided a short description with it, also usage and an example.**Remember**,this are bash commands.
+A lot of people is learning linux, for development reasons. They sometimes forget the commands. To help them **memorize** the commands, I made this repo. This is my personal repo, where I keep all the commands I use. I hope this repo helps you too. I provided a short description with it, also usage and an example.**Remember**,these are bash commands.
 
 # Table of Contents
 
@@ -70,7 +70,7 @@ A lot of people is learning linux,for development reasons. They sometimes forget
 
 ## 01.```ls```
 
-This command is used to list the files and directories in the current directory. You can either use ```ls``` or ```ls -l``` to list the files in long format. Or, you can use ```ls -a``` to list all files including hidden files. You can also use ```ls -lh``` to list the files in long format with human-readable file sizes. And,use ```ls -R``` to list all files in the subdirectories. And,use ```ls -t``` to list the files by last modified time. Also,use ```ls -S``` to list the files by file size. You can also specify the path after the ```ls``` command to list the files in that directory.
+This command is used to list the files and directories in the current directory. You can either use ```ls``` or ```ls -l``` to list the files in long format. Or, you can use ```ls -a``` to list all files including hidden files. You can also use ```ls -lh``` to list the files in long format with human-readable file sizes. And, use ```ls -R``` to list all files in the subdirectories. And, use ```ls -t``` to list the files by last modified time. Also, use ```ls -S``` to list the files by file size. You can also specify the path after the ```ls``` command to list the files in that directory.
 
 ### Usage
     
@@ -85,7 +85,7 @@ Desktop  Documents  Downloads  Music  Pictures  Videos
 
 ## 02.```cd```
 
-This command is used to change the directory. You can use ```cd``` to change to the home directory. Or, you can use ```cd ..``` to move to the parent directory. You can also use ```cd -``` to move to the previous directory. You can also specify the path after the ```cd``` command to move to that directory. Or,use cd ../.. to move two directories down.You can use ```cd ~``` to move to the home directory. You can also use ```cd /``` to move to the root directory. You can also use ```cd ``` then the directory path to move to that directory.
+This command is used to change the directory. You can use ```cd``` to change to the home directory. Or, you can use ```cd ..``` to move to the parent directory. You can also use ```cd -``` to move to the previous directory. You can also specify the path after the ```cd``` command to move to that directory. Or,use ```cd ../..``` to move two directories down. You can use ```cd ~``` to move to the home directory. You can also use ```cd /``` to move to the root directory. You can also use ```cd ``` then the directory path to move to that directory.
 
 ### Usage
     
@@ -151,7 +151,7 @@ This command is used to remove files or directories. You can use ```rm``` then t
 rm file.txt
 ```
 #### Output 
-If you use use the command ```ls``` then you will see the file is removed.
+If you use the command ```ls``` then you will see the file is removed.
 
 ## 07.```cp```
 
@@ -208,7 +208,7 @@ cat file.txt
 Hello World
 ```
 
-If ```file.txt``` contains ```Hello World```,then the output will be ```Hello World```. If there is nothing,then the output will be empty.
+If ```file.txt``` contains ```Hello World```, then the output will be ```Hello World```. If there is nothing,  then the output will be empty.
 
 ## 10.```more```
 
@@ -226,7 +226,7 @@ Hello World
 ``` 
 ## 11. ```less```
 
-This command is used to display the contents of a file one page at a time. You can use ```less``` then the file name to display the contents of a file one page at a time. You can use the ```space``` key to move to the next page. You can use the ```enter``` key to move to the next line. You can use the ```q``` key to quit the display. You can use the ```b``` key to move to the previous page. You can use the ```/``` key to search for a pattern in the file. You can use the ```n``` key to move to the next occurrence of the pattern. You can use the ```N``` key to move to the previous occurrence of the pattern. This command is similar to the ```more``` command. But,it is mainly used if the file is so big that no text editor can handle it.
+This command is used to display the contents of a file one page at a time. You can use ```less``` then the file name to display the contents of a file one page at a time. You can use the ```space``` key to move to the next page. You can use the ```enter``` key to move to the next line. You can use the ```q``` key to quit the display. You can use the ```b``` key to move to the previous page. You can use the ```/``` key to search for a pattern in the file. You can use the ```n``` key to move to the next occurrence of the pattern. You can use the ```N``` key to move to the previous occurrence of the pattern. This command is similar to the ```more``` command. But, it is mainly used if the file is so big that no text editor can handle it.
 
 ### Usage
     
@@ -237,7 +237,7 @@ less file.txt
 ```bash
 Hello World
 ```
-If ```file.txt``` contains ```Hello World```,then the output will be ```Hello World```. If there is nothing,then the output will be empty.
+If ```file.txt``` contains ```Hello World```, then the output will be ```Hello World```. If there is nothing, then the output will be empty.
 
 ## 12.```head```
 
@@ -254,7 +254,7 @@ head file.txt
 This is the headline
 ```
 
-If ```file.txt``` contains ```This is the headline```,then the output will be ```This is the headline```. If there is nothing,then the output will be empty.
+If ```file.txt``` contains ```This is the headline``` at the headline, then the output will be ```This is the headline```. If there is nothing, then the output will be empty.
 
 ## 13.```tail```
 
@@ -271,7 +271,7 @@ tail file.txt
 This is the last line
 ```
 
-If ```file.txt``` contains ```This is the last line```,then the output will be ```This is the last line```. If there is nothing,then the output will be empty.
+If ```file.txt``` contains ```This is the last line``` at the end, then the output will be ```This is the last line```. If there is nothing, then the output will be empty.
 
 ## 14.```grep```
 
@@ -288,7 +288,7 @@ grep "pattern" file.txt
 pattern
 ```
 
-If ```file.txt``` contains ```pattern```,then the output will be ```pattern```. If there is nothing,then the output will be empty.
+If ```file.txt``` contains ```pattern``` 1 or more times, then the output will be ```pattern```. If there is nothing, then the output will be empty.
 
 ## 15.```find```
 
@@ -306,7 +306,7 @@ find directory
 directory
 ```
 
-If the directory exists,then the output will be the directory name. If there is nothing,then the output will be empty.
+If the directory exists, then the output will be the directory name. If there is nothing, then the output will be empty.
 
 ## 16.```whereis```
 
@@ -417,7 +417,7 @@ SYNOPSIS
         brew tap --list-pinned-user-official
 ```
 
-And,it will show you a lot more. I am not going to show you the whole manual page. This manual page is for homebrew. If you want to see the manual page of a command,then use ```man``` then the command name.
+And, it will show you a lot more. I am not going to show you the whole manual page. This manual page is for homebrew. If you want to see the manual page of a command, then use ```man``` then the command name.
 
 
 # Not that much used Commands
@@ -472,7 +472,7 @@ username
 
 ## 4.```date```
 
-This command is used to print the current date and time. You can use ```date``` to print the current date and time.The format will be ```Day, Date, Month, Year, Time, Timezone```.
+This command is used to print the current date and time. You can use ```date``` to print the current date and time. The format will be ```Day, Date, Month, Year, Time, Timezone```.
 
 ### Usage
     
@@ -567,7 +567,7 @@ uptime
 10:10:10 up 10 days, 10:10, 10 users, load average: 1.10, 1.10, 1.10
 ```
 
-If the system is up for 10 days,10 hours,10 minutes,then the output will be ```10:10:10 up 10 days, 10:10, 10 users, load average: 1.10, 1.10, 1.10```. If there is nothing,then the output will be empty.
+If the system is up for 10 days,10 hours,10 minutes, then the output will be ```10:10:10 up 10 days, 10:10, 10 users, load average: 1.10, 1.10, 1.10```. If there is nothing, then the output will be empty.
 
 ## 10.```w```
 
@@ -586,7 +586,7 @@ USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
 username tty1     :0               10:10    10:10  10:10  10:10 -bash
 ```
 
-If the user is logged in and is doing something,then the output will be the user's information. If there is nothing,then the output will be empty.
+If the user is logged in and is doing something, then the output will be the user's information. If there is nothing, then the output will be empty.
 
 ## 11.```who```
 
@@ -603,11 +603,11 @@ who
 username tty1 2021-10-10 10:10 (:0)
 ```
 
-If the user is logged in,then the output will be the user's information. If there is nothing,then the output will be empty.
+If the user is logged in, then the output will be the user's information. If there is nothing, then the output will be empty.
 
 ## 12.```ps```
 
-This command is used to print the currently running processes. You can use ```ps``` to print the currently running processes. You can also use ```ps -e``` to print all the processes. You can also use ```ps -f``` to print the full-format listing. You can also use ```ps -l``` to print the long-format listing. You can also use ```ps -u``` then the user name to print the processes of the user. You can also use ```ps -aux``` to print all the processes in full-format listing.
+This command is used to print the currently running processes. You can use ```ps``` to print the currently running processes. You can also use ```ps -e``` to print all the processes. You can also use ```ps -f``` to print the full-format listing. You can also use ```ps -l``` to print the long-format listing. You can also use ```ps -u``` then the username to print the processes of the user. You can also use ```ps -aux``` to print all the processes in full-format listing.
 
 ### Usage
     
@@ -621,7 +621,7 @@ ps
   123 tty1     00:00:00 bash
 ```
 
-If the process is running,then the output will be the process information. It will also show system running processes.
+If the process is running, then the output will be the process information. It will also show system running processes.
 
 ## 13.```kill```
 
@@ -637,7 +637,7 @@ kill 123
 ```bash
 ```
 
-If the process is killed,then the output will be empty. 
+If the process is killed, then the output will be empty. 
 
 ## 14.```killall```
 
@@ -653,7 +653,7 @@ killall bash
 ```bash
 ```
 
-If the process is killed,then the output will be empty. 
+If the process is killed, then the output will be empty. 
 
 ## 15.```pkill```
 
@@ -669,7 +669,7 @@ pkill bash
 ```bash
 ```
 
-If the process is killed,then the output will be empty.
+If the process is killed, then the output will be empty.
 
 ## 16.```pgrep``` 
 
@@ -686,7 +686,7 @@ pgrep bash
 123
 ```
 
-If the process is found,then the output will be the process ID. If there is nothing,then the output will be empty.
+If the process is found, then the output will be the process ID. If there is nothing, then the output will be empty.
 
 ## 17.```top```
 
@@ -709,7 +709,7 @@ PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
 123 username  20   0  100.0m  10.0m  10.0m S  10.0   1.0  10:10.10 bash
 ```
 
-If the system is running,then the output will be the system information. If there is nothing,then the output will be empty.
+If the system is running, then the output will be the system information. If there is nothing, then the output will be empty.
 
 ## 18.```htop```
 
@@ -768,50 +768,50 @@ tmpfs            1000000      100    100000   1% /run/user/1000
 
 # All in one chart
 
-| Command | Description | Usage |
-| --- | --- | --- |
-| ```ls``` | List files and directories | ```ls``` | 
-| ```cd``` | Change directory | ```cd``` | 
-| ```pwd``` | Print current working directory | ```pwd``` | 
-| ```touch``` | Create a new file | ```touch file.txt``` | 
-| ```mkdir``` | Create a new directory | ```mkdir directory``` | 
-| ```rm``` | Remove files or directories | ```rm file.txt``` | 
-| ```cp``` | Copy files or directories | ```cp file.txt file2.txt``` | 
-| ```mv``` | Move files or directories | ```mv file.txt directory``` |
-| ```cat``` | Display the contents of a file | ```cat file.txt``` | 
-| ```more``` | Display the contents of a file one page at a time | ```more file.txt``` | 
-| ```less``` | Display the contents of a file one page at a time | ```less file.txt``` | 
-| ```head``` | Display the first few lines of a file | ```head file.txt``` |
-| ```tail``` | Display the last few lines of a file | ```tail file.txt``` | 
-| ```grep``` | Search for a pattern in a file | ```grep "pattern" file.txt``` | 
-| ```find``` | Find files or directories | ```find directory``` | ```directory``` |
-| ```whereis``` | Find the binary, source, and manual page files for a command | ```whereis ls``` | 
-| ```which``` | Find the location of a command | ```which ls``` | 
-| ```man``` | Display the manual page of a command | ```man brew``` | 
-| ```chmod``` | Change the permissions of a file or directory | ```chmod 777 file.txt``` | 
-| ```chown``` | Change the owner of a file or directory | ```chown owner file.txt``` | 
-| ```whoami``` | Print the current user | ```whoami``` | ```username``` |
-| ```date``` | Print the current date and time | ```date``` | 
-| ```cal``` | Print the calendar of the current month | ```cal``` | 
-| ```clear``` | Clear the terminal | ```clear``` | 
-| ```echo``` | Print a message | ```echo "Hello World"``` | 
-| ```uname``` | Print the system information | ```uname``` | 
-| ```uptime``` | Print the uptime of the system | ```uptime``` | 
-| ```w``` | Print the users who are currently logged in and what they are doing | ```w``` | 
-| ```who``` | Print the users who are currently logged in | ```who``` | 
-| ```ps``` | Print the currently running processes | ```ps``` | 
-| ```kill``` | Kill a process | ```kill 123``` |
-| ```killall``` | Kill all processes by name | ```killall bash``` |
-| ```pkill``` | Kill a process by name | ```pkill bash``` | 
-| ```pgrep``` | Find the process ID by name | ```pgrep bash``` |
-| ```top``` | Display the dynamic real-time view of a running system | ```top``` | 
-| ```htop``` | Display the dynamic real-time view of a running system | ```htop``` |
-| ```free``` | Display the amount of free and used memory in the system | ```free``` | 
-| ```df``` | Display the amount of disk space available on the file system | ```df``` | 
+| Command       | Description                                                         | Usage                         |
+|---------------|---------------------------------------------------------------------|-------------------------------|
+| ```ls```      | List files and directories                                          | ```ls```                      | 
+| ```cd```      | Change directory                                                    | ```cd```                      | 
+| ```pwd```     | Print current working directory                                     | ```pwd```                     | 
+| ```touch```   | Create a new file                                                   | ```touch file.txt```          | 
+| ```mkdir```   | Create a new directory                                              | ```mkdir directory```         | 
+| ```rm```      | Remove files or directories                                         | ```rm file.txt```             | 
+| ```cp```      | Copy files or directories                                           | ```cp file.txt file2.txt```   | 
+| ```mv```      | Move files or directories                                           | ```mv file.txt directory```   |
+| ```cat```     | Display the contents of a file                                      | ```cat file.txt```            | 
+| ```more```    | Display the contents of a file one page at a time                   | ```more file.txt```           | 
+| ```less```    | Display the contents of a file one page at a time                   | ```less file.txt```           | 
+| ```head```    | Display the first few lines of a file                               | ```head file.txt```           |
+| ```tail```    | Display the last few lines of a file                                | ```tail file.txt```           | 
+| ```grep```    | Search for a pattern in a file                                      | ```grep "pattern" file.txt``` | 
+| ```find```    | Find files or directories                                           | ```find directory```          | ```directory``` |
+| ```whereis``` | Find the binary, source, and manual page files for a command        | ```whereis ls```              | 
+| ```which```   | Find the location of a command                                      | ```which ls```                | 
+| ```man```     | Display the manual page of a command                                | ```man brew```                | 
+| ```chmod```   | Change the permissions of a file or directory                       | ```chmod 777 file.txt```      | 
+| ```chown```   | Change the owner of a file or directory                             | ```chown owner file.txt```    | 
+| ```whoami```  | Print the current user                                              | ```whoami```                  | ```username``` |
+| ```date```    | Print the current date and time                                     | ```date```                    | 
+| ```cal```     | Print the calendar of the current month                             | ```cal```                     | 
+| ```clear```   | Clear the terminal                                                  | ```clear```                   | 
+| ```echo```    | Print a message                                                     | ```echo "Hello World"```      | 
+| ```uname```   | Print the system information                                        | ```uname```                   | 
+| ```uptime```  | Print the uptime of the system                                      | ```uptime```                  | 
+| ```w```       | Print the users who are currently logged in and what they are doing | ```w```                       | 
+| ```who```     | Print the users who are currently logged in                         | ```who```                     | 
+| ```ps```      | Print the currently running processes                               | ```ps```                      | 
+| ```kill```    | Kill a process                                                      | ```kill 123```                |
+| ```killall``` | Kill all processes by name                                          | ```killall bash```            |
+| ```pkill```   | Kill a process by name                                              | ```pkill bash```              | 
+| ```pgrep```   | Find the process ID by name                                         | ```pgrep bash```              |
+| ```top```     | Display the dynamic real-time view of a running system              | ```top```                     | 
+| ```htop```    | Display the dynamic real-time view of a running system              | ```htop```                    |
+| ```free```    | Display the amount of free and used memory in the system            | ```free```                    | 
+| ```df```      | Display the amount of disk space available on the file system       | ```df```                      | 
 
 # Contributing
 
-If you want to contribute to this repo,then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. You can also open an issue if you find any bugs or want to suggest something. I will try to fix the issue as soon as possible.# Contributing
+If you want to contribute to this repo, then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. You can also open an issue if you find any bugs or want to suggest something. I will try to fix the issue as soon as possible.# Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -823,14 +823,14 @@ Contributions are what make the open-source community such an amazing place to l
 
 # License
 
-This repo is licensed under the MIT license.See [LICENSE.md](LICENSE.md) for more details.
+This repo is licensed under the MIT license. See [LICENSE.md](LICENSE.md) for more details.
 
 # Author
 
-Muntasir Mahmud (Also known in github as MuntasirSZN)
+Muntasir Mahmud (Also known in GitHub as MuntasirSZN)
 
 # Conclusion
 
-I hope this repo helps you to memorize the linux commands. If you have any questions,then you can ask me in the issues section. I will try to answer your questions as soon as possible. If you want to contribute to this repo,then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. I hope this repo helps you. Thank you for reading this repo. Have a nice day. Goodbye.👋👋👋
+I hope this repo helps you to memorize the linux commands. If you have any questions, then you can ask me in the issues section. I will try to answer your questions as soon as possible. If you want to contribute to this repo, then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. I hope this repo helps you. Thank you for reading this repo. Have a nice day. Goodbye.👋👋👋
 
 **And**, don't forget to give a star to this repo.⭐⭐⭐

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Commands Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Linux Commands Cheat Sheet 🐧📚📚</h1>
+            <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Label.jpeg?raw=true" alt="Linux Commands" class="header-image">
+        </header>
+
+        <section class="intro">
+            <h2>Why this repo❓</h2>
+            <p>A lot of people are learning Linux for development reasons. They sometimes forget the commands. To help them <strong>memorize</strong> the commands, I made this repo. This is my personal repo, where I keep all the commands I use. I hope this repo helps you too. I provided a short description with it, also usage and an example. <strong>Remember</strong>, these are bash commands.</p>
+        </section>
+
+        <section class="table-of-contents">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#most-used-commands">Most Used Commands</a></li>
+                <li><a href="#not-that-much-used-commands">Not that much used Commands</a></li>
+                <li><a href="#all-in-one-chart">All in one chart</a></li>
+                <li><a href="#contributing">Contributing</a></li>
+                <li><a href="#license">License</a></li>
+                <li><a href="#author">Author</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </section>
+
+        <section class="search-bar">
+            <label for="searchInput"></label><input type="text" id="searchInput" onkeyup="searchCommands()" placeholder="Search for commands...">
+        </section>
+
+        <section id="most-used-commands" class="commands">
+            <h2>Most Used Commands</h2>
+            <div class="command">
+                <h3>01. <code>ls</code></h3>
+                <p>This command is used to list the files and directories in the current directory.</p>
+                <p>Usage:</p>
+                <pre><code>ls</code></pre>
+                <p>Output:</p>
+                <pre><code>Desktop  Documents  Downloads  Music  Pictures  Videos</code></pre>
+            </div>
+            <div class="command">
+                <h3>02. <code>cd</code></h3>
+                <p>This command is used to change the directory. You can use <code>cd</code> to change to the home directory. Or, you can use <code>cd ..</code> to move to the parent directory. You can also use <code>cd -</code> to move to the previous directory. You can also specify the path after the <code>cd</code> command to move to that directory. Or,use <code>cd ../..</code> to move two directories down.You can use <code>cd ~</code> to move to the home directory. You can also use <code>cd /</code>to move to the root directory. You can also use ```cd ``` then the directory path to move to that directory.</p>
+                <p>Usage:</p>
+                <pre><code>cd</code></pre>
+                <p>Output:</p>
+                <pre><code>/home/username</code></pre>
+            </div>
+            <div class="command">
+                <h3>03. <code>pwd</code></h3>
+                <p>This command is used to print the current working directory. You can use <code>pwd</code> to print the current working directory.
+                </p>
+                <p>Usage:</p>
+                <pre><code>pwd</code></pre>
+                <p>Output:</p>
+                <pre><code>/home/username</code></pre>
+            </div>
+            <div class="command">
+                <h3>04. <code>touch</code></h3>
+                <p>This command is used to create a new file. You can use <code>touch</code> then the file name to create a new file.</p>
+                <p>Usage:</p>
+                <pre><code>touch file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>file.txt</code></pre>
+            </div>
+            <div class="command">
+                <h3>05. <code>mkdir</code></h3>
+                <p>This command is used to create a new directory. You can use <code>mkdir</code> then the directory name to create a new directory.</p>
+                <p>Usage:</p>
+                <pre><code>mkdir directory</code></pre>
+                <p>Output:</p>
+                <pre><code>directory</code></pre>
+            </div>
+            <div class="command">
+                <h3>06. <code>rm</code></h3>
+                <p>This command is used to remove files or directories. You can use <code>rm</code> then the file name to remove a file. You can also use <code>rm -r</code> then the directory name to remove a directory. Or, <code>rm -rf</code> then the directory name to remove a directory forcefully. You can also use <code>rm -i</code> then the file name to remove a file interactively. You can append <code>sudo</code> before the <code>rm</code> command to remove a file or directory that requires root permission. Remember, the <code>rm</code> command is irreversible.</p>
+                <p>Usage:</p>
+                <pre><code>rm file.txt</code></pre>
+                <p>Output:</p>
+                <p>If you use the command <code>ls</code> then you will see the file is removed.</p>
+            </div>
+            <div class="command">
+                <h3>07. <code>cp</code></h3>
+                This command is used to copy files or directories. You can use <code>cp</code> then the source file name and the destination file name to copy a file. You can also use <code>cp -r</code> then the source directory name and the destination directory name to copy a directory. You can also use <code>cp -i</code> then the source file name and the destination file name to copy a file interactively. You can append <code>sudo</code> before the <code>cp</code> command to copy a file or directory that requires root permission.</p>
+                <p>Usage:</p>
+                <pre><code>cp file.txt file2.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>file2.txt</code></pre>
+                <p>Usage Number 2:</p>
+                <pre><code>cp -r directory directory2</code></pre>
+                <p>Output:</p>
+                <pre><code>directory2</code></pre>
+                <p>You will see the files are copied.</p>
+            </div>
+            <div class="command">
+                <h3>08. <code>mv</code></h3>
+                <p>This command is used to move files or directories. You can use <code>mv</code> then the source file name and the destination file name to move a file. You can also use <code>mv -i</code> then the source file name and the destination file name to move a file interactively. You can append <code>sudo</code> before the <code>mv</code> command to move a file or directory that requires root permission.</p>
+                <p>Usage:</p>
+                <pre><code>mv file.txt directory</code></pre>
+                <p>Output:</p>
+                <pre><code>directory/file.txt</code></pre>
+            </div>
+            <div class="command">
+                <h3>09. <code>cat</code></h3>
+                <p>This command is used to display the contents of a file. You can use <code>cat</code> then the file name to display the contents of a file.</p>
+                <p>Usage:</p>
+                <pre><code>cat file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>Hello World</code></pre>
+                <p>If <code>file.txt</code> contains <code>Hello World</code>, then the output will be <code>Hello World</code>. If there is nothing, then the output will be empty.</p>
+            </div>
+            <div class="command">
+                <h3>10. <code>more</code></h3>
+                <p>This command is used to display the contents of a file one page at a time. You can use <code>more</code> then the file name to display the contents of a file one page at a time. You can use the <code>space</code> key to move to the next page. You can use the <code>Enter</code> key to move to the next line. You can use the <code>q</code> key to quit the display. You can use the <code>b</code> key to move to the previous page.</p>
+                <p>Usage:</p>
+                <pre><code>more file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>Hello World</code></pre>
+            </div>
+            <div class="command">
+                <h3>11. <code>less</code></h3>
+                <p>This command is used to display the contents of a file one page at a time. You can use <code>less</code> then the file name to display the contents of a file one page at a time. You can use the <code>space</code> key to move to the next page. You can use the <code>enter</code> key to move to the next line. You can use the <code>q</code> key to quit the display. You can use the <code>b</code> key to move to the previous page. You can use the <code>/</code> key to search for a pattern in the file. You can use the <code>n</code> key to move to the next occurrence of the pattern. You can use the <code>N</code> key to move to the previous occurrence of the pattern. This command is similar to the <code>more</code> command. But,it is mainly used if the file is so big that no text editor can handle it.
+                </p>
+                <p>Usage:</p>
+                <pre><code>less file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>Hello World</code></pre>
+                <p>If <code>file.txt</code> contains <code>Hello World</code>,then the output will be <code>Hello World</code>. If there is nothing,then the output will be empty.</p>
+            </div>
+            <div class="command">
+                <h3>12. <code>head</code></h3>
+                <p>This command is used to display the first few lines of a file. You can use <code>head</code> then the file name to display the first few lines of a file. You can also use <code>head -n</code> then the number of lines and the file name to display the first few lines of a file. You can also use <code>head -c</code> then the number of bytes and the file name to display the first few bytes of a file.</p>
+                <p>Usage:</p>
+                <pre><code>head file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>This is the headline</code></pre>
+                <p>If <code>file.txt</code> contains <code>This is the headline</code> as the headline,then the output will be <code>This is the headline</code>. If there is nothing,then the output will be empty.</p>
+            </div>
+            <div class="command">
+                <h3>13. <code>tail</code></h3>
+                <p>This command is used to display the last few lines of a file. You can use <code>tail</code> then the file name to display the last few lines of a file. You can also use <code>tail -n</code> then the number of lines and the file name to display the last few lines of a file. You can also use <code>tail -c</code> then the number of bytes and the file name to display the last few bytes of a file. You can also use <code>tail -f</code> then the file name to display the last few lines of a file and keep the file open for new lines.</p>
+                <p>Usage:</p>
+                <pre><code>tail file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>This is the last line.</code></pre>
+                <p>If ```file.txt``` contains ```This is the last line``` at the end,then the output will be ```This is the last line```. If there is nothing,then the output will be empty.</p>
+            </div>
+            <div class="command">
+                <h3>01. <code>ls</code></h3>
+                <p>This command is used to list the files and directories in the current directory.</p>
+                <p>Usage:</p>
+                <pre><code>ls</code></pre>
+                <p>Output:</p>
+                <pre><code>Desktop  Documents  Downloads  Music  Pictures  Videos</code></pre>
+            </div>
+            <div class="command">
+                <h3>01. <code>ls</code></h3>
+                <p>This command is used to list the files and directories in the current directory.</p>
+                <p>Usage:</p>
+                <pre><code>ls</code></pre>
+                <p>Output:</p>
+                <pre><code>Desktop  Documents  Downloads  Music  Pictures  Videos</code></pre>
+            </div>
+            <div class="command">
+                <h3>01. <code>ls</code></h3>
+                <p>This command is used to list the files and directories in the current directory.</p>
+                <p>Usage:</p>
+                <pre><code>ls</code></pre>
+                <p>Output:</p>
+                <pre><code>Desktop  Documents  Downloads  Music  Pictures  Videos</code></pre>
+            </div>
+            
+            <!-- Repeat for other commands -->
+        </section>
+
+        <section id="not-that-much-used-commands" class="commands">
+            <h2>Not that much used Commands</h2>
+            <div class="command">
+                <h3>1. <code>chmod</code></h3>
+                <p>This command is used to change the permissions of a file or directory.</p>
+                <pre><code>chmod 777 file.txt</code></pre>
+                <p>Output:</p>
+                <pre><code>file.txt</code></pre>
+            </div>
+            <!-- Repeat for other commands -->
+        </section>
+
+        <section id="all-in-one-chart" class="chart">
+            <h2>All in one chart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>ls</code></td>
+                        <td>List files and directories</td>
+                        <td><code>ls</code></td>
+                    </tr>
+                    <!-- Repeat for other commands -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contributing">
+            <h2>Contributing</h2>
+            <p>Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are <strong>greatly appreciated</strong>.</p>
+            <ol>
+                <li>Fork the Project</li>
+                <li>Create your Feature Branch</li>
+                <li>Commit your Changes</li>
+                <li>Push to the Branch</li>
+                <li>Open a Pull Request</li>
+            </ol>
+        </section>
+
+        <section id="license">
+            <h2>License</h2>
+            <p>This repo is licensed under the MIT license. See <a href="LICENSE.md">LICENSE.md</a> for more details.</p>
+        </section>
+
+        <section id="author">
+            <h2>Author</h2>
+            <p>Muntasir Mahmud (Also known in GitHub as MuntasirSZN)</p>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>I hope this repo helps you to memorize the Linux commands. If you have any questions, then you can ask me in the issues section. I will try to answer your questions as soon as possible. If you want to contribute to this repo, then you can fork this repo and make a pull request. I will review the pull request and merge it if it is good. I hope this repo helps you. Thank you for reading this repo. Have a nice day. Goodbye.👋👋👋</p>
+            <p><strong>And</strong>, don't forget to give a star to this repo.⭐⭐⭐</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
