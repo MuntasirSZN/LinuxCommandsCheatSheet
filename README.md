@@ -17,6 +17,14 @@
 
 A lot of people is learning linux, for development reasons. They sometimes forget the commands. To help them **memorize** the commands, I made this repo. This is my personal repo, where I keep all the commands I use. I hope this repo helps you too. I provided a short description with it, also usage and an example.**Remember**,these are bash commands.
 
+# Web Support
+
+I coded this whole repo again with html,css and javascript. You can also go there and learn.To go there, click [here](https://muntasirmahmud.me/LinuxCommandsCheatSheet/) or copy this url and paste it in the bar:
+
+```
+https://muntasirmahmud.me/LinuxCommandsCheatSheet/
+```
+
 # Table of Contents
 
 
