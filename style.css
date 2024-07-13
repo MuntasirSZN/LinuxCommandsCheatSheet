@@ -185,3 +185,28 @@ strong {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
     outline: none;
 }
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #1f1b1b; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #2c2828; 
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

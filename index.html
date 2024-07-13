@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linux Commands Cheat Sheet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="linux-teacher.png" type="image/png">
 </head>
 <body>
     <div class="container">
@@ -331,25 +332,26 @@
                 <p>This command is used to print a message. You can use <code>echo</code> then the message to print a message. You can also use ```echo -e``` then the message to print a message with escape characters interpreted. You can also use ```echo -n``` then the message to print a message without a newline.
                 </p>
                 <p>Usage:</p>
-                <pre><code>touch file.txt</code></pre>
+                <pre><code>echo "Hello World"</code></pre>
                 <p>Output:</p>
-                <pre><code>file.txt</code></pre>
+                <pre><code>Hello World</code></pre>
             </div>
             <div class="command">
-                <h3>04. <code>touch</code></h3>
-                <p>This command is used to create a new file. You can use <code>touch</code> then the file name to create a new file.</p>
+                <h3>08. <code>uname</code></h3>
+                <p>This command is used to print the system information. You can use <code>uname</code> to print the system information. You can also use <code>uname -a</code> to print all the system information. You can also use <code>uname -s</code> to print the system name. You can also use <code>uname -n</code> to print the network node hostname. You can also use <code>uname -r</code> to print the kernel release. You can also use <code>uname -v</code> to print the kernel version. You can also use <code>uname -m</code> to print the machine hardware name. You can also use <code>uname -p</code> to print the processor type. You can also use <code>uname -i</code> to print the hardware platform. You can also use <code>uname -o</code> to print the operating system.</p>
                 <p>Usage:</p>
-                <pre><code>touch file.txt</code></pre>
+                <pre><code>uname</code></pre>
                 <p>Output:</p>
-                <pre><code>file.txt</code></pre>
+                <pre><code>Linux</code></pre>
             </div>
             <div class="command">
-                <h3>04. <code>touch</code></h3>
-                <p>This command is used to create a new file. You can use <code>touch</code> then the file name to create a new file.</p>
+                <h3>09. <code>uptime</code></h3>
+                <p>This command is used to print the uptime of the system. You can use <code>uptime</code> to print the uptime of the system.</p>
                 <p>Usage:</p>
-                <pre><code>touch file.txt</code></pre>
+                <pre><code>uptime</code></pre>
                 <p>Output:</p>
-                <pre><code>file.txt</code></pre>
+                <pre><code>10:10:10 up 10 days, 10:10, 10 users, load average: 1.10, 1.10, 1.10</code></pre>
+                <p>If the system is up for 10 days,10 hours,10 minutes, then the output will be <code>10:10:10 up 10 days, 10:10, 10 users, load average: 1.10, 1.10, 1.10</code>. If there is nothing, then the output will be empty.</p>
             </div>
             <div class="command">
                 <h3>04. <code>touch</code></h3>
