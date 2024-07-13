@@ -5,7 +5,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Label.jpeg?raw=true" width="50%" alt="">
+    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Linux%20Commands.jpeg?raw=true" width="50%" alt="">
 </div>
 
 
@@ -16,14 +16,6 @@
 </div>
 
 A lot of people is learning linux, for development reasons. They sometimes forget the commands. To help them **memorize** the commands, I made this repo. This is my personal repo, where I keep all the commands I use. I hope this repo helps you too. I provided a short description with it, also usage and an example.**Remember**,these are bash commands.
-
-# Web Support
-
-I coded this whole repo again with html,css and javascript. You can also go there and learn.To go there, click [here](https://muntasirmahmud.me/LinuxCommandsCheatSheet/) or copy this url and paste it in the bar:
-
-```
-https://muntasirmahmud.me/LinuxCommandsCheatSheet/
-```
 
 # Table of Contents
 
@@ -48,15 +40,15 @@ https://muntasirmahmud.me/LinuxCommandsCheatSheet/
   - [17.```which```](#17which)
   - [18.```man```](#18man)
 - [Not that much used Commands](#not-that-much-used-commands)
-  - [01.```chmod```](#01chmod)
-  - [02.```chown```](#02chown)
-  - [03.```whoami```](#03whoami)
-  - [04.```date```](#04date)
-  - [05.```cal```](#05cal)
-  - [06.```clear```](#06clear)
-  - [07.```echo```](#07echo)
-  - [08.```uname```](#08uname)
-  - [09.```uptime```](#09uptime)
+  - [1.```chmod```](#1chmod)
+  - [2.```chown```](#2chown)
+  - [3.```whoami```](#3whoami)
+  - [4.```date```](#4date)
+  - [5.```cal```](#5cal)
+  - [6.```clear```](#6clear)
+  - [7.```echo```](#7echo)
+  - [8.```uname```](#8uname)
+  - [9.```uptime```](#9uptime)
   - [10.```w```](#10w)
   - [11.```who```](#11who)
   - [12.```ps```](#12ps)
@@ -430,7 +422,7 @@ And, it will show you a lot more. I am not going to show you the whole manual pa
 
 # Not that much used Commands
 
-## 01.```chmod```   
+## 1.```chmod```   
 
 This command is used to change the permissions of a file or directory. You can use ```chmod``` then the permissions and the file name to change the permissions of a file or directory. You can also use ```chmod -R``` then the permissions and the directory name to change the permissions of a directory recursively. You can also use ```chmod u+x``` then the file name to add execute permission to the owner of the file. You can also use ```chmod g+x``` then the file name to add execute permission to the group of the file. You can also use ```chmod o+x``` then the file name to add execute permission to others. You can also use ```chmod a+x``` then the file name to add execute permission to all. You can also use ```chmod u-x``` then the file name to remove execute permission from the owner of the file. You can also use ```chmod g-x``` then the file name to remove execute permission from the group of the file. You can also use ```chmod o-x``` then the file name to remove execute permission from others. You can also use ```chmod a-x``` then the file name to remove execute permission from all. You can also use ```chmod u=rwx``` then the file name to set read, write, and execute permissions for the owner of the file. You can also use ```chmod g=rwx``` then the file name to set read, write, and execute permissions for the group of the file. You can also use ```chmod o=rwx``` then the file name to set read, write, and execute permissions for others. You can also use ```chmod a=rwx``` then the file name to set read, write, and execute permissions for all. You can also use ```chmod 777``` then the file name to set read, write, and execute permissions for all. You can also use ```chmod 755``` then the file name to set read, write, and execute permissions for the owner and read and execute permissions for the group and others. You can also use ```chmod 644``` then the file name to set read and write permissions for the owner and read permissions for the group and others. You can also use ```chmod 600``` then the file name to set read and write permissions for the owner and no permissions for the group and others. You can also use ```chmod 666``` then the file name to set read and write permissions for all. You can also use ``` chmod 444``` then the file name to set read permissions for all. You can also use ```chmod 400``` then the file name to set read permissions for the owner and no permissions for the group and others. You can also use ```chmod 200``` then the file name to set write permissions for the owner and no permissions for the group and others. You can also use ```chmod 100``` then the file name to set execute permissions for the owner and no permissions for the group and others. You can also use ```chmod 000``` then the file name to set no permissions for all.
 
@@ -446,7 +438,7 @@ file.txt
 ```
 If you use the command ```ls -l``` then you will see the permissions are changed.
 
-## 02.```chown```
+## 2.```chown```
 
 This command is used to change the owner of a file or directory. You can use ```chown``` then the owner name and the file name to change the owner of a file or directory. You can also use ```chown -R``` then the owner name and the directory name to change the owner of a directory recursively. You can also use ```chown owner:group``` then the owner name, group name, and the file name to change the owner and group of a file or directory. You can also use ```chown -R owner:group``` then the owner name, group name, and the directory name to change the owner and group of a directory recursively.
 
@@ -463,7 +455,7 @@ file.txt
 ```
 If you use the command ```ls -l``` then you will see the owner is changed.
 
-## 03.```whoami```
+## 3.```whoami```
 
 This command is used to print the current user. You can use ```whoami``` to print the current user.
 
@@ -478,7 +470,7 @@ whoami
 username
 ```
 
-## 04.```date```
+## 4.```date```
 
 This command is used to print the current date and time. You can use ```date``` to print the current date and time. The format will be ```Day, Date, Month, Year, Time, Timezone```.
 
@@ -493,7 +485,7 @@ date
 Sun 10 Oct 2021 10:10:10 PM IST
 ```
 
-## 05.```cal```
+## 5.```cal```
 
 This command is used to print the calendar of the current month. You can use ```cal``` to print the calendar of the current month.
 
@@ -515,7 +507,7 @@ Su Mo Tu We Th Fr Sa
 31
 ```
 
-## 06.```clear```
+## 6.```clear```
 
 This command is used to clear the terminal. You can use ```clear``` to clear the terminal. You can do ctrl+l to clear the terminal too.
 
@@ -530,7 +522,7 @@ clear
 ```
 You will see the terminal is cleared.
 
-## 07.```echo```
+## 7.```echo```
 
 This command is used to print a message. You can use ```echo``` then the message to print a message. You can also use ```echo -e``` then the message to print a message with escape characters interpreted. You can also use ```echo -n``` then the message to print a message without a newline.
 
@@ -545,7 +537,7 @@ echo "Hello World"
 Hello World
 ```
 
-## 08.```uname```
+## 8.```uname```
 
 This command is used to print the system information. You can use ```uname``` to print the system information. You can also use ```uname -a``` to print all the system information. You can also use ```uname -s``` to print the system name. You can also use ```uname -n``` to print the network node hostname. You can also use ```uname -r``` to print the kernel release. You can also use ```uname -v``` to print the kernel version. You can also use ```uname -m``` to print the machine hardware name. You can also use ```uname -p``` to print the processor type. You can also use ```uname -i``` to print the hardware platform. You can also use ```uname -o``` to print the operating system.
 
@@ -560,7 +552,7 @@ uname
 Linux
 ```
 
-## 09.```uptime```
+## 9.```uptime```
 
 This command is used to print the uptime of the system. You can use ```uptime``` to print the uptime of the system.
 
@@ -792,13 +784,13 @@ tmpfs            1000000      100    100000   1% /run/user/1000
 | ```head```    | Display the first few lines of a file                               | ```head file.txt```           |
 | ```tail```    | Display the last few lines of a file                                | ```tail file.txt```           | 
 | ```grep```    | Search for a pattern in a file                                      | ```grep "pattern" file.txt``` | 
-| ```find```    | Find files or directories                                           | ```find directory```          | ```directory``` |
+| ```find```    | Find files or directories                                           | ```find directory```          | 
 | ```whereis``` | Find the binary, source, and manual page files for a command        | ```whereis ls```              | 
 | ```which```   | Find the location of a command                                      | ```which ls```                | 
 | ```man```     | Display the manual page of a command                                | ```man brew```                | 
 | ```chmod```   | Change the permissions of a file or directory                       | ```chmod 777 file.txt```      | 
 | ```chown```   | Change the owner of a file or directory                             | ```chown owner file.txt```    | 
-| ```whoami```  | Print the current user                                              | ```whoami```                  | ```username``` |
+| ```whoami```  | Print the current user                                              | ```whoami```                  | 
 | ```date```    | Print the current date and time                                     | ```date```                    | 
 | ```cal```     | Print the calendar of the current month                             | ```cal```                     | 
 | ```clear```   | Clear the terminal                                                  | ```clear```                   | 
