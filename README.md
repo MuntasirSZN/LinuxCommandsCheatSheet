@@ -5,7 +5,7 @@
 </div>
 
 <div style="text-align: center;">
-    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Linux%20Commands.jpeg?raw=true" width="50%" alt="">
+    <img src="https://github.com/MuntasirSZN/LinuxCommandsCheatSheet/blob/main/Label.jpeg?raw=true" width="50%" alt="">
 </div>
 
 
